@@ -1,0 +1,13 @@
+# Treat CSV and JSON files as text for better diffs
+*.csv text
+*.json text
+*.yml text
+*.yaml text
+
+# Handle Jupyter notebooks properly in Git
+*.ipynb filter=ipynb
+
+# Ensure line endings are correct
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
